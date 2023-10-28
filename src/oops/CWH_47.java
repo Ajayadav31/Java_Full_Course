@@ -1,4 +1,4 @@
-package Company;
+package oops;
 
 class EkClass{
 	int a;

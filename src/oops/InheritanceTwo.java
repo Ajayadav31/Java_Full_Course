@@ -1,4 +1,4 @@
-package Company;
+package oops;
 
 
 //inheritance allows you to create a new class that is based on an existing class.means all code of That class 

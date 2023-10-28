@@ -1,4 +1,4 @@
-package Company;
+package oops;
 
 interface sampleOne{
 	public void meth1();
