@@ -16,7 +16,7 @@ class MyThread2 extends Thread{
 		}
 	}
 }
-public class Threading {
+public class ThreadingByExtend {
 	public static void main(String[] args) {
 		MyThread1 thread1 = new MyThread1();
 		MyThread2 thread2 = new MyThread2();
