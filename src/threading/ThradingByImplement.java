@@ -22,8 +22,7 @@ public class ThradingByImplement {
 		Thread th2 = new Thread(t2);
 		th1.start();
 		th2.start();
-		
-		
+	
 	}
 
 }
