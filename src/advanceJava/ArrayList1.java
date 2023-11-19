@@ -1,4 +1,4 @@
-package threading;
+package advanceJava;
 
 import java.util.*;
 public class ArrayList1 {
@@ -13,7 +13,9 @@ public class ArrayList1 {
 		//Constructor 3
 		Collection<Integer> My = new ArrayList<>();
 		My.add(100);
-		
+		My.add(400);
+		My.add(500);
+		My.add(600);
 		ArrayList<Integer> Array3 = new ArrayList<>(My);
 	
 		//Methods
@@ -48,7 +50,10 @@ public class ArrayList1 {
 		System.out.println(Array1.contains(My));
 	*/	
 		
-		Array2.ensureCapacity(10);
-		System.out.println(Array1.equals(Array3));
+	//	Array2.ensureCapacity(10);
+		
+	//	System.out.println(Array1.equals(Array3));
+		
+		
 	}
 }

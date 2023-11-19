@@ -2,7 +2,7 @@ package threading;
 
 import java.util.Scanner;
 
-class NuminatorNegative extends Exception{
+class NuminatorNegative2 extends Exception{
 	@Override
 	public String toString() {
 		return "MArks can't be negative";
@@ -13,7 +13,7 @@ class NuminatorNegative extends Exception{
 	}
 }
 
-class DenominarorIsZero extends Exception{
+class DenominarorIsZero2 extends Exception{
 	@Override
 	public String toString() {
 		return "Total marks can't be zero";
@@ -23,7 +23,7 @@ class DenominarorIsZero extends Exception{
 		return "please enter greater than zero value";
 	}
 }
-class DenominatorIsGreaterThanNuminator extends Exception{
+class DenominatorIsGreaterThanNuminator2 extends Exception{
 	@Override
 	public String toString() {
 		return "Total marks smaller than numinator";
@@ -45,7 +45,7 @@ public class NestedTryCatch {
 			float b = sc.nextFloat();
 			if(a<0) {
 				try {
-					throw new NuminatorNegative();
+					throw new NuminatorNegative2();
 				}
 				catch(Exception e){
 					System.out.println(e.toString());
@@ -53,7 +53,7 @@ public class NestedTryCatch {
 				}
 			}else if(b==0) {
 				try {
-					throw new DenominarorIsZero();
+					throw new DenominarorIsZero2();
 				}
 				catch(Exception e) {
 					System.out.println(e.toString());
@@ -61,7 +61,7 @@ public class NestedTryCatch {
 				}
 			}else if(a>b) {
 				try {
-					throw new DenominatorIsGreaterThanNuminator();
+					throw new DenominatorIsGreaterThanNuminator2();
 				}
 				catch(Exception e) {
 					System.out.println(e.toString());
