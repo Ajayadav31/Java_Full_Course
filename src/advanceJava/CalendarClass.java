@@ -13,6 +13,9 @@ public class CalendarClass {
 		System.out.println(c.getWeekYear());
 		System.out.println(c.getTime());
 		System.out.println(c.getTimeZone());
+		System.out.println(c.get(Calendar.HOUR));
+		System.out.println(Calendar.MINUTE);
+		System.out.println(c.get(Calendar.HOUR) +":"+ c.get(Calendar.MINUTE)+":"+c.get(Calendar.SECOND));
 		
 	}
 }
