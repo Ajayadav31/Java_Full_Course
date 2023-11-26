@@ -11,7 +11,7 @@ public class Question1 {
 		int[] arr = new int[10];
 		int sum = 0;
 		for(int i = 0;i<10;i++) {
-			System.out.println("Enter value of index "+i+ ":");
+			System.out.println("Enter value of index "+i+ " : ");
 			arr[i] = sc.nextInt();
 			sum = sum + arr[i];
 		}
