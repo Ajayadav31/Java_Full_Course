@@ -14,8 +14,13 @@ public class SearchInStrings {
 			if(str.length()==0) {
 				return false;
 			}
-			for(int i=0;i<str.length();i++) {
+			/*for(int i=0;i<str.length();i++) {
 				if(target==str.charAt(i)) {
+					return true;
+				}
+			}*/
+			for(char ch : str.toCharArray()) {
+				if(ch==target) {
 					return true;
 				}
 			}
