@@ -8,9 +8,9 @@ public class SortedInRowAndColumneWise {
 				{10,20,30,40},
 				{15,25,35,40},
 				{28,29,37,49},
-				{33,34,38,50,51}
+				{33,34,38,50}
 			};
-		int target = 51;
+		int target = 37;
 		System.out.println(Arrays.toString(search(arr,target)));
 	}
 	static int[] search(int[][] arr,int target) {
